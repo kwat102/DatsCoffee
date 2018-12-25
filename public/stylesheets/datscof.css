@@ -1,0 +1,132 @@
+/*
+
+///////////////////////////////          Image Content         //////////////////////////////////////////////
+
+*/
+
+.thumbnail img{
+    width: 100%;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 10px;
+}
+
+#delete-form {
+    display: inline;
+}
+
+/*
+
+///////////////////////////////          Container         //////////////////////////////////////////////
+
+*/
+.container {
+    width: 50%;
+    padding-top: 25vh;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.header-container {
+    text-align: center;
+    padding: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    list-style: none;
+    padding-top: 40vh;
+    z-index: 1;
+    background-image: url(https://www.freepngimg.com/thumb/coffee/30384-4-coffee-cup-hd.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/*
+
+///////////////////////////////          Content        //////////////////////////////////////////////
+
+*/
+
+main {
+      -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+  background: #ddd;
+}
+
+
+
+
+
+/*
+
+///////////////////////////////          Nav-Bar        //////////////////////////////////////////////
+
+*/
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: rgba(0,0,0,.1);
+    border: 1px solid transparent;
+    border-radius: 5rem;
+}
+    
+.navbar-light .navbar-toggler {
+    color: #856404cf;
+    border-color: rgba(0,0,0,.1);
+}
+
+.navbar-light .navbar-brand {
+    color: #856404cf;
+}
+
+.navbar-light .navbar-nav .nav-link  {
+    
+    color: #856404cf;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #856404cf;
+}
+
+.btn-outline-light {
+    color: #856404cf;
+    border-color: #856404cf;
+}
+
+.btn:hover {
+    /* color: #212529; */
+    /* text-decoration: none; */
+    color: #856404cf;
+} 
+
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.btn:hover {
+    /* color: #212529; */
+    /* text-decoration: none; */
+    color: #856404cf;
+}
+
+.btn-outline-light:hover {
+    color: white;
+    background-color: #856404cf;
+    border-color: #856404cf;
+}
+body {
+    font-family: 'Dosis', sans-serif;
+}
